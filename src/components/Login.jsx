@@ -11,7 +11,7 @@ function Login() {
             <Navbar />
             <div className="bg-white-50 flex flex-col justify-center mx-auto">
                 <div className="max-w-md w-full mx-auto">
-                    <div className="text-3xl font-bold mt-2 text-center mb-3 mt-10">Welcome back,</div>
+                    <div className="text-3xl font-normal normal medium 40px/60px Poppins; mt-2 text-center mb-3 mt-10">Welcome back,</div>
                     <p className="my-3 m-auto" style={{ width: '20rem' }}>
                         Hi, my name is Eventful Moments, I am a bucket… no, not the bucket of water but I store awesome moments you will like to have in coming years.
                     </p>

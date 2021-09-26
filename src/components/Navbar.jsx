@@ -36,7 +36,7 @@ function Navbar() {
         <div>
             <div className="relative" style={{ backgroundColor: '#008289', color: '#ffffff' }}>
                 <div className="max-w-7xl mx-auto px-4 sm:px-6">
-                    <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+                    <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
                         <div className="flex justify-start lg:w-0 lg:flex-1">
                             <a href="!#" className="whitespace-nowrap text-base font-medium  text-white-500 hover:text-white-900">
                                 Eventful Moments.
