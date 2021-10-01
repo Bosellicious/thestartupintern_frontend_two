@@ -9,11 +9,11 @@ class Bucket extends React.Component{
         return(
             <React.Fragment>
                 <Navbar />
-                    <div className="container px-10 mt-10" style={{ height: '70vh', overflowY: "scroll" }}>
-                        <div className="d-flex space-btw">
+                    <div className="container md:px-80 p-5 mt-10">
+                        <div className="block md:flex space-btw">
                             <div>
-                                <p className="text-xl font-bold"> Welcome John Doe,</p>
-                                <p className="text-xs mt-2 font-medium">
+                                <p className="text-2xl mt-2 font-bold "> Welcome John Doe,</p>
+                                <p className="text-sm mt-2 font-medium">
                                     Here are items in your eventful moment bucket.
                                 </p>
                             </div>
@@ -22,7 +22,7 @@ class Bucket extends React.Component{
                             </div>
                         </div> 
 
-                        <div class="grid grid-cols-2 gap-4 my-10">
+                        <div className="grid grid-cols-1 gap-4 my-10 md:grid-cols-2">
                             <BucketItemCard />
                             <BucketItemCard />
                             <BucketItemCard />

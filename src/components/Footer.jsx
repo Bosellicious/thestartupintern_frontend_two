@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Footer() {
+function Footer({className}) {
     return (
-        <div className="bg-green-400 footer">
+        <div className={`bg-green-400 footer ${className}`}>
             <span>
                 Eventful Moments by Osoba Esther Abosede
             </span>

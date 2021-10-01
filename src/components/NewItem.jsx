@@ -33,7 +33,7 @@ class NewItem extends Component {
                         </form>
                     </div>
                 </div>
-                <Footer />
+                <Footer className="fixed" />
             </div>
         )
     }

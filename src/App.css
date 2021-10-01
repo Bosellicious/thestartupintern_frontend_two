@@ -6,18 +6,21 @@
 
 .form-group{
   width: 20rem;
-  margin: 8px;
+  margin: 30px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .footer{
   background-color: #60CED4;
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
+  width: 100%;
   padding: 20px;
   text-align: right;
+}
+
+.footer.fixed{
+  position: fixed;
+  bottom: 0;
 }
 
 .btn-submit{
@@ -37,8 +40,17 @@
 }
 
 .space-btw{
-  justify-content: space-between;
+  justify-content:space-between;
 }
+
+.bucket-item:nth-of-type(1){
+  background-color: #FFF5A7;
+}
+
+ /* .bucket-item:hover{
+   background-color: blanchedalmond;
+ } */
+
 
 .bucket-item{
   background-color: ghostwhite;
@@ -47,18 +59,17 @@
   box-shadow: .1rem 0rem 2rem .5rem rgba(0, 0, 0, 0.068);
 }
 
-.bucket-item:hover{
-  background-color: blanchedalmond;
-}
 
 .item-title{
-  font-size: larger;
-  font-weight: 510;
-  margin-top: 10px;
-  margin-bottom: 12px;
+  font-size:large;
+  font-weight:510;
+  margin-top:10px;
+  margin-bottom:12px;
+  
 }
 
 .item-content{
+  font-size:12px;
   font-weight: 300;
   margin-bottom: 10px;
 }
@@ -66,6 +77,7 @@
 .item-footer{
   display: flex;
   justify-content: space-between;
+  
 }
 
 .item-footer a{
@@ -73,7 +85,7 @@
 }
 
 .page-title{
-  font-size: xx-large;
+  font-size: 25px;
   font-weight: 600;
 }
 
@@ -83,16 +95,17 @@
 
 .page-content{
   margin-top: 30px;
+  font-size: 12px;
 }
 
 .page-content p{
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .page-actions a, .page-actions button{
   width: 150px;
-  padding: 10px;
+  padding:5px;
   color: #fff;
   border-radius: 0.75rem;
   display: inline-block;

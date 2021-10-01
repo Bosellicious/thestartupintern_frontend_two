@@ -9,23 +9,25 @@ function Login() {
     return (
         <React.Fragment>
             <Navbar />
-            <div className="bg-white-50 flex flex-col justify-center mx-auto">
-                <div className="max-w-md w-full mx-auto">
-                    <div className="text-3xl font-normal normal medium 40px/60px Poppins; mt-2 text-center mb-3 mt-10">Welcome back,</div>
-                    <p className="my-3 m-auto" style={{ width: '20rem' }}>
+            
+            <div className="bg-white-50 flex flex-col mx-auto ">
+                <div className="max-w-md w-80 mx-auto">
+                    <div className="text-2xl font-normal normal medium 40px/60px Poppins; mb-3 mt-10 ">Welcome back,</div>
+                    <p className=" my-3 text-xs m-auto" style={{ width: '20rem' }}>
                         Hi, my name is Eventful Moments, I am a bucket… no, not the bucket of water but I store awesome moments you will like to have in coming years.
                     </p>
                 </div>
-               
+                
+    
                <form>
-                    <div className="form-group">
+                    <div className="form-group ">
                     <label htmlFor="" className="text-sm font-bold text-gray-600">Email</label>
-                        <input type="email" className="w-80 p-2 border border-gray-300 block mx-auto rounded mt-1" required/> 
+                        <input type="email" className="w-68 p-2 border border-gray-300 block mx-auto rounded mt-1" required/> 
                     </div>
             
                     <div className="form-group">
                         <label htmlFor="" className="text-sm font-bold text-gray-600">Password</label>
-                        <input type="password" className="w-80 p-2 border border-gray-300 block mx-auto rounded mt-1" required/>
+                        <input type="password" className="w-68 p-2 border border-gray-300 block mx-auto rounded mt-1" required/>
                     </div>
 
                     <div className="form-group">
@@ -34,7 +36,7 @@ function Login() {
                     </div>
                </form>
             </div>
-            <Footer />
+            <Footer className= "fixed" />
         </React.Fragment>
     )
 }

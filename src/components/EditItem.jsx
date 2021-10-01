@@ -18,28 +18,23 @@ class EditItem extends Component {
                         /> 
                     </div>
             
-                    <div className="form-group">
+                    <div className="form-group mt-5">
                         <label htmlFor="" className="text-sm font-bold text-gray-600">Title</label>
                         <input type="text" className="border rounded-md text-xs w-80 p-2 border border-gray-300 block mx-auto  mt-1" required
-                            value="Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero’s 1scentury BC text De Finibus Bonorum et Malorum."
-                        />
+                            value="Lorem ipsum began as scrambled, nonsensical Latin" ></input>
                     </div>
-                    <div className="form-group">
+                    <div className="form-group mt-5">
                         <label htmlFor="" className="text-sm font-bold text-gray-600">Details</label>
-                        <textarea name="" id="" cols="30" rows="10" className="border rounded-md text-xs w-80 p-2 border border-gray-300 block mx-auto mt-1">
-                        It’s not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, 
-                            “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real. 
-                            Until, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not Latin, though it looks like it, and it actually says nothing,” 
-                            Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.
-                             Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, 
-                             “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real. Until, the prevailing view assumed lorem ipsum was born as a nonsense text. 
-                             “It’s not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, 
-                             which is why at a glance it looks pretty real. Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, 
-                             “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real. Until, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not Latin, though it looks like it, and it actually says nothing,” 
-                             Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.
+                        <textarea name="" id="" cols="11" rows="11" className="border rounded-md text-xs w-80 p-1 border border-gray-300 block mx-auto mt-1">
+                        Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. 
+                        “It’s not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, 
+                        “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.
+                        Until, the prevailing view assumed lorem ipsum was born as a nonsense text. “It’s not Latin, though it looks like it, and it actually says nothing,” 
+                        Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the 
+                        
                         </textarea>
                     </div>
-                    <div className="form-group">
+                    <div className="form-group mt-10">
                         {/* <button type="submit" className="btn btn-submit">update</button> */}
                         <Link to="/bucket" className="btn btn-submit">update</Link>
                     </div>
@@ -48,7 +43,7 @@ class EditItem extends Component {
                         </form>
                     </div>
                 </div>
-                <Footer />
+                <Footer className="fixed" />
             </div>
         )
     }
